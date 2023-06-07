@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generate Meme - Hasib Muhammad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-dark text-white m-5">
+    <div class="container">
+        <header>
+            <div class="d-flex justify-content-center align-items-center gap-2">
+                <img class="img-fluid rounded logo" src="./images/logo.png" alt="">
+                <h1 class="display-6 title">Generate Meme</h1>
+            </div>
+        </header>
+        <hr>
+
+        <main class="main m-3 d-flex justify-content-center">
+            <form class="">
+                <div class="d-flex gap-2 mb-3">
+                    <input type="email" class="form-control w-50" placeholder="Top Text">
+
+                    <input type="password" class="form-control w-50" placeholder="Bottom Text">
+                </div>
+                <button type="submit" class="btn btn-primary w-100">Generate new image</button>
+            </form>
+        </main>
+        <div class="meme text-center">
+            <div class="meme-text top">I thought this</div>
+            <div class="meme-image">
+                <img class="image-thumbnail img-fluid w-50" src="./images/logo.png" alt="">
+            </div>
+            <div class="meme-text bottom">But this is this</div>
+        </div>
+    </div>
+    <footer class="text-center mt-4">
+        <span id="year"></span>
+        - Built with fun &copy;    
+        <a href="https://github.com/hasibmuhammad" target="_blank">Hasib Muhammad 
+        </a>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <script src="./app.js"></script>
+</body>
+</html>
